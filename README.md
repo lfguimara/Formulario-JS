@@ -12,7 +12,7 @@ Este é um site desenvolvido utilizando HTML, CSS e JavaScript. O site foi criad
 
 ### Funcionalidades:
 - Funcionalidade 1: Imagem inicial do projeto.
-- 
+  
 ![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/2b565939-a1fe-492d-8f0a-f28ddd52f8fa)
 
 - Funcionalidade 2 : Caso algum campo não esteja no padrão, e o usuario clicar em "Enviar", o campo ficara vermelho. Indicando que algo está incompleto ou errado.

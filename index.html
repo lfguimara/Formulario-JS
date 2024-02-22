@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulário com Validação</title>
+
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="info">
+        <h1>FICOU COM DÚVIDA? <br>
+            NOS MANDE UMA MENSAGEM!
+        <h1>
+        <p class="texto">
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+    </section>
+
+    <section >
+        <form class="formulario" action="post" novalidate>
+
+            <input id="nome" class="nome required" oninput="validarNome()" type="text" placeholder="Nome completo*" maxlength="100">
+
+            <p class="aviso-campo-obrigatorio">campo obrigatório</p>
+
+            <input id="email" class="email required " type="email" oninput="validarEmail()" placeholder="Email*">
+            <p class="aviso-campo-obrigatorio">campo obrigatório</p>
+
+            <input id="telefone" class="telefone required"  type="number"  oninput="validarTelefone()" maxlength="11"  placeholder="Telefone*">
+
+            <p class="aviso-campo-obrigatorio">campo obrigatório</p>
+
+            <textarea id="mensagem" class="mensagem required " oninput="validarMsg()"  placeholder="Mensagem*"  cols="30" rows="10"></textarea>
+
+            <p class="aviso-campo-obrigatorio">campo obrigatório</p>
+            
+            <p class="campo">*campos obrigatórios</p>
+
+            <button type="submit" class="enviar" href="#">
+                <p>Enviar</p></button>
+
+    </form>
+    </section>
+    <script src="./src/js/formulario.js"></script>
+</body>
+</html>

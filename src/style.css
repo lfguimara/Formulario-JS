@@ -1,0 +1,110 @@
+
+
+body{
+    width: 100wh;
+    height: 100vh;
+    background-image: url(img/bg-repeat.jpg);
+    background-position:center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info{
+    color: #FFFFFF;
+    margin-right: 73px;
+}
+
+h1{
+  
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    margin-bottom: 11px;
+    margin-left: -130px;
+    
+}
+
+ .texto{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 300px;
+    height: 54px;
+
+}
+
+.formulario{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    gap: 10px;
+    width: 340px;
+    height: 378px;
+    margin-left: 50px;
+
+}
+
+.enviar{
+    background-color: #3CCC87;
+    color:#FFFFFF;
+    width:300px;
+    height:42px;
+    border-radius: 5px;
+    border: #3CCC87;
+}
+
+.enviar p{
+   text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.enviar:hover{
+    cursor: pointer;
+    
+}
+
+.nome, .email, .telefone, .mensagem {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+.nome, .email, .telefone{
+    width: 298px;
+    height: 35px;
+}
+
+.mensagem{
+    width: 298.01px;
+    height: 100px;
+}
+
+.telefone::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+}
+
+.campo{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.aviso-campo-obrigatorio{
+    display: none;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9px;
+    color: #F52E2E;
+    margin-top:-15px ;
+    gap: 0;
+}

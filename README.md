@@ -15,11 +15,11 @@ Este é um site desenvolvido utilizando HTML, CSS e JavaScript. O site foi criad
 
 - Funcionalidade 2 : Caso algum campo não esteja no padrão, e o usuario clicar em "Enviar", o campo ficara vermelho. Indicando que algo está incompleto ou errado.
 
-![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/b5c4d0a7-730f-4ddd-afd7-7020469229c7)
+![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/f98dae32-7b10-4f23-b258-c1ad882d7c09)
 
 - Funcionalidade 3: Caso todos os campos estiverem no padrão, e o usuario clicar em "Enviar", os campos ficaram verdes. Indicando que todos os campos estão de forma coerente.
 
-![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/f98dae32-7b10-4f23-b258-c1ad882d7c09)
+![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/b5c4d0a7-730f-4ddd-afd7-7020469229c7)
 
 ### Como utilizar:
 1. Faça o download ou clone este repositório.

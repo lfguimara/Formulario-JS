@@ -15,7 +15,7 @@ Este é um site desenvolvido utilizando HTML, CSS e JavaScript. O site foi criad
 
 - Funcionalidade 2 : Caso algum campo não esteja no padrão, e o usuario clicar em "Enviar", o campo ficara vermelho. Indicando que algo está incompleto ou errado.
 
-![alt text](image-1.png)
+![image](https://github.com/lfguimara/Formulario-JS/assets/138631124/b5c4d0a7-730f-4ddd-afd7-7020469229c7)
 
 - Funcionalidade 3: Caso todos os campos estiverem no padrão, e o usuario clicar em "Enviar", os campos ficaram verdes. Indicando que todos os campos estão de forma coerente.
 

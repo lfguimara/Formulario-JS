@@ -1,6 +1,4 @@
-
-
-# Projeto: Formulario com JavaScript
+## Projeto: Formulario com JavaScript
 
 ### Descrição:
 Este é um site desenvolvido utilizando HTML, CSS e JavaScript. O site foi criado com o objetivo de representar um formulario, onde devemos completar todos os campos obrigatórios sem deixa-los incompleto ou em branco. A o completar clicar no botão "Enviar" e verificar se está tudo correto.
